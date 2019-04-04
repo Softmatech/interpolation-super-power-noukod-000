@@ -1,6 +1,6 @@
 # Write your #display_rainbow method here
 def display_rainbow (colors = ['red','orange','yellow','green','blue','indigo','violet'])
-  
+  colors.sort
   puts "#{colors[0].slice(0.1).capitalize}: #{colors[0]}"
   puts "#{colors[1].slice(0,1).capitalize}: #{colors[1]}"
   puts "#{colors[2].slice(0,1).capitalize}: #{colors[2]}"
