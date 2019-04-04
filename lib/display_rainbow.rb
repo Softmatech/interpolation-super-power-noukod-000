@@ -2,8 +2,8 @@
 def display_rainbow (colors = ['red','orange','yellow','green','blue','indigo','violet'])
   
   puts "#{colors[0].slice(0.1).capitalize}: #{colors[0]}"
-  puts ": #{colors[1]}"
-  puts " : #{colors[2]}"
+  puts "#{colors[1].slice(0,1).capitalize}: #{colors[1]}"
+  puts "#{colors[2].slice(0,1).capitalize} : #{colors[2]}"
   puts " : #{colors[3]}"
   puts " : #{colors[4]}"
   puts " : #{colors[5]}"
